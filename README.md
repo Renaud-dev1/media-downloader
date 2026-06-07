@@ -1,6 +1,6 @@
 # Media Downloader — YouTube & Spotify
 
-Script Windows en batch permettant de télécharger de l'audio ou de la vidéo
+Script Windows en batch permettant de télécharger audio ou vidéo
 depuis YouTube (MP3/MP4) et Spotify (MP3 avec métadonnées et pochette).
 
 ## Prérequis
