@@ -29,13 +29,6 @@ depuis YouTube (MP3/MP4) et Spotify (MP3 avec métadonnées et pochette).
 - [spotDL](https://github.com/spotDL/spotify-downloader)
 - FFmpeg
 
-## Structure
-
-media-downloader/
-├── downloader.bat   # Script principal
-├── install.bat      # Installation des dépendances
-└── README.md
-
 ## Avertissement
 
 Ce projet est réalisé à des fins éducatives.
