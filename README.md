@@ -1,35 +1,34 @@
-# Media Downloader — YouTube & Spotify
+#  Media Downloader — YouTube & Spotify
 
-Script Windows en batch permettant de télécharger audio ou vidéo
-depuis YouTube (MP3/MP4) et Spotify (MP3 avec métadonnées et pochette).
+Script Windows `.bat` tout-en-un pour télécharger des vidéos, musiques et playlists depuis YouTube et Spotify.
 
-## Prérequis
+##  Fonctionnalités
 
-- [Python 3.10+](https://www.python.org/downloads/) — cocher "Add Python to PATH"
-- `yt-dlp` et `spotdl` (installés automatiquement via `install.bat`)
+- **Zéro prérequis** : installe automatiquement Python, yt-dlp, spotdl et FFmpeg si absents
+- **YouTube** : vidéos et playlists en MP3 ou MP4 (meilleure qualité disponible)
+- **Spotify** : tracks et playlists en MP3
+- Choix de la destination : Bureau, Téléchargements, ou chemin personnalisé
+- Numérotation automatique des titres dans les playlists
 
-## Installation
+##  Utilisation
 
-1: Cloner le repo ou télécharger les fichiers
-2: Lancer `install.bat`
-3: Lancer `downloader.bat`
+1. Télécharge `MediaDownloader.bat`
+2. Double-clique dessus
+3. Au premier lancement, Python et les outils sont installés automatiquement
+4. Colle ton lien YouTube ou Spotify et suis les instructions
 
-## Fonctionnalités
+> **Note :** une fenêtre UAC peut s'ouvrir pour l'installation de Python, c'est normal.
 
-- Détection automatique de la plateforme (YouTube ou Spotify)
-- Choix du format : Audio MP3 ou Vidéo MP4 (YouTube)
-- Choix du dossier de destination (Bureau, Téléchargements, personnalisé)
-- Téléchargement Spotify avec métadonnées et pochette d'album
-- Détection automatique du chemin Python même hors PATH
+##  Outils utilisés
 
-## Technologies utilisées
+| Outil | Rôle |
+|-------|------|
+| [Python 3.12](https://www.python.org/) | Environnement d'exécution |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | Téléchargement YouTube |
+| [spotdl](https://github.com/spotDL/spotify-downloader) | Téléchargement Spotify |
+| [FFmpeg](https://ffmpeg.org/) | Conversion audio/vidéo |
 
-- Windows Batch Script
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [spotDL](https://github.com/spotDL/spotify-downloader)
-- FFmpeg
+##  Compatibilité
 
-## Avertissement
-
-Ce projet est réalisé à des fins éducatives.
-Respecte les droits d'auteur et les conditions d'utilisation des plateformes.
+- Windows 10 / 11
+- Connexion internet requise
